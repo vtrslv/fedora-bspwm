@@ -1,0 +1,43 @@
+Debian
+sudo apt install lightdm slick-greeter lightdm-settings
+sudo apt install bspwm sxhkd rofi polybar
+sudo apt install lxappearance nitrogen pcmanfm chromium pulseaudio alsa-utils pavucontrol terminator
+sudo apt install neofetch arc-theme lxpolkit papirus-icon-theme numlockx
+
+sudo systemctl enable lightdm
+sudo systemclt set-default graphical.target
+
+codium (free visual code)
+
+
+firmware drives for the wifi card
+
+Fedora
+
+sudo dnf update
+sudo dnf install lightdm
+sudo dnf install bspwm sxhkd rofi polybar slick-greeter lightdm-settings
+sudo dnf install lxappearance nitrogen pcmanfm chromium alsa-utils pavucontrol terminator
+pulseaudio - didnt work conflict with pipewire
+sudo dnf install neofetch arc-theme terminator lxpolkit papirus-icon-theme numlockx
+
+sudo dnf install NetworkManager-wifi
+lspci and install firmware modules for the wifi card
+
+xorg
+sddm
+bspwm
+sxhkd
+dconf-editor??
+fontawesome-fonts
+fontawesome-fonts-web
+papirus
+/etc/sddm.conf
+vimtutor
+arandr
+tumbler for thumbnails
+
+nerdfonts.com
+move fonts to .fonts and fc-cache -vf
+
+ocs package can install directly from the gnome-look site
